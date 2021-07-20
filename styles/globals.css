@@ -1,9 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@200&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1 {
+  font-family: Montserrat;
+  color:white;
+}
+
+h2 {
+  font-family: Raleway;
+  color: white;
 }
 
 a {
@@ -13,4 +25,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#background {
+  z-index: -2; 
+}
+
+#overlay {
+  z-index: -2;
+  background: rgb(247,219,234);
+  background-image: radial-gradient(circle, rgb(71, 2, 39) 5%, rgb(48, 5, 56) 100%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  opacity: .4;
 }
