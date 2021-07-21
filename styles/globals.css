@@ -11,10 +11,12 @@ body {
 
 h1 {
   font-family: Montserrat;
+  text-shadow: 2px 2px 5px rgb(48, 5, 56);
 }
 
 h2 {
   font-family: Raleway;
+  text-shadow: 2px 2px 5px rgb(48, 5, 56);
 }
 
 a {
@@ -58,4 +60,5 @@ Button {
 
 #icon {
   margin: .5vw;
+  color: white;
 }

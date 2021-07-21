@@ -28,9 +28,17 @@ export default function Home() {
         </h1>
         <h2>Austin, TX</h2>
         <div id="icons">
-          <GitHubIcon id="icon" fontSize="large" onClick={event => window.location.href='https://github.com/ccingram94'}></GitHubIcon>
+        <IconButton href="https://github.com/ccingram94" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon id="icon" fontSize="large"></GitHubIcon>
+        </IconButton>
+        <IconButton href="https://github.com/ccingram94" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon id="icon" fontSize="large"></LinkedInIcon>
+        </IconButton>
+        <IconButton href="https://github.com/ccingram94" target="_blank" rel="noopener noreferrer">
           <MailIcon id="icon" fontSize="large"></MailIcon>
+        </IconButton>
+
+
         </div>
         <div id="buttons">
           <Button id="button" href="/about" variant="contained"> About</Button>
